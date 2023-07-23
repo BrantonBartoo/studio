@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="Viewport" content="width=device-width,initial-scale 1.0">
+        <title>university of bartoo</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="bartoo20.html"><img src="image/logo.png"></a>
+                <div class="nav-links" Id="navLinks">
+                    <i class="fa fa-times"onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="bartoo20.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="courses.html">OFFERS</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="content.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars"onclick="showMenu()"></i>
+            </nav>
+            
+               <h1> Contact Us</h1>
+        </section>
+        <section class="location">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d15955.331693449734!2d36.7280684!3d-1.2734315999999999!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2ske!4v1671351742527!5m2!1sen!2ske" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        </section>
+        
+        <section class="Contact us">
+            <div class="row">
+                <div class="contact-col">
+                    <div>
+                        <i class="fa fa-home"></i>
+                        <span>
+                            <h5>Eld Rd,Rupa building</h5>
+                            <p>SPORTS IN</p>
+                        </span>
+                    </div>
+                    <div>
+                        <i class="fa fa-contact"></i>
+                        <span>
+                            <h5>0748043720<br>0717551424</h5>
+                            </span>
+                    </div>
+                    <div>
+                        <i class="fa fa-envelope-o"></i>
+                        <span>
+                            <h5>info@bartoostudio.com</h5>
+                            <p>Email us your query</p>
+                            </span>
+                    </div>
+                </div>
+                <div class="contact-col">
+                    <form action="formhandller.php" method="post">
+                        <input type="text " name="name" placeholder="Enter your Name" required>
+                        <input type="email " name="email"  placeholder="Enter your email" required>
+                        <input type="text "  name="subject" placeholder="Enter your genre" required>
+                        <textarea  rows="8" name="message" placeholder="message" required></textarea>
+                        <button type="submit" class="hero-btn red-btn">Send message</button>
+                    </form>
+                </div>
+            </div>
+
+        </section>
+
+
+       
+       
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>we thrive to ensure our young ones become the heros of tomorrow.<br>
+                its harsdwork and a little bit of magic
+            </p>
+            <div class="icons">
+                <i class="fa fa-star"></i>
+                        <i class="fa fa-facebook"></i>
+                        <i class="fa fa-twitter"></i>
+                        <i class="fa fa-instagram"></i>
+            </div>
+        <p>made with Bartoo<br>with heart</p>
+        
+        </section>
+                 <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right="0";
+            }
+            function hideMenu(){
+                navLinks.style.right="-200px";
+            }
+        </script>
+        
+        
+    </body>
+</html>
